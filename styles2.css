@@ -7,11 +7,25 @@ body {
 h1 {
 	font-size:36;
 	font-family:"Brush Script M"
+	
+}
+
+.letter {
+  color: #903;
+  float: left;
+  font-family: Georgia;
+  font-size: 75px;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+}
 }
 h2 {
 	font-size: 24pt;
 	font-family:"comic sans ms";
 	text-align: center;
+	color: #903
 }
 h3 {
 	font-size: 16pt;
@@ -21,11 +35,32 @@ h3 {
 	text-align: center;
 }
 
+.cat{
+	color: #903;	
+	Font-size: 16pt;
+	font-family: Georgia;
+}
+
+.h33 {
+	font-size: 16pt;
+	font-family:"Arial sans-serif";
+	color:"solid black";
+	margin-left: auto;
+	font-family: Georgia;
+}
+
 .b1 {
 	Font-size: 22pt; 
 	font-family:"times new roman";
 	color:blue;
 	
+}
+
+.b2 {
+	Font-size: 22pt; 
+	font-family:"times new roman";
+	color:black;
+	text-align: center;
 }
 
 
@@ -78,4 +113,41 @@ img {
       margin: auto;
   }
   
- /** This is for centering the image on page one**/
+ /** This is for iframe scrolling**/
+<p>An iframe where scrollbars are always shown:</p>
+<iframe src="/default.asp" width="200" height="200" scrolling="yes">
+  <p>Lets see if this works.</p>
+</iframe>
+
+/** This is for contact form**/
+body {font-family: Arial, Helvetica, sans-serif;}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
